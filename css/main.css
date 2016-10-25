@@ -1,13 +1,41 @@
 *{
 	text-align: center;
+	font-family: 'Righteous', cursive;
+
 }
 
+.row1, .row2, .row3{
+	padding-top: 100px;
+}
 
+.fa-bed, .fa-heartbeat, .fa-book{
+	color:red;
+	cursor: help;
+    margin: 1px 0;
+}
 
+.fa-warning, .fa-wrench{
+	color:pink;
+	cursor: crosshair;
+}
 
+.fa-tree{
+	color:green;
+	cursor: not-allowed;
 
+}
 
+.fa-shopping-basket, .fa-hourglass{
+	color:purple;
+	cursor: all-scroll;
+}
 
+.fa-bug, .fa-university{
+	color:blue;
+	cursor: progress;
+}
 
-
-
+.fa-glass, .fa-briefcase{
+	color:yellow;
+	cursor: ne-resize
+}
